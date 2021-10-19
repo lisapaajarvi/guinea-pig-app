@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Guinea pigs are awesome!</Text>
+      <Text>Guinea pigs are awesome! Woohoo!</Text>
+      <Image source={require('./assets/IMG_2233.jpeg')} style={{ height: 200 }} />
       <StatusBar style="auto" />
     </View>
   );
