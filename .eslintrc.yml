@@ -1,9 +1,11 @@
 env:
   browser: true
-  es2021: true
+  
 extends:
-  - standard
+  - eslint:recommended
 parserOptions:
-  ecmaVersion: 13
+  ecmaVersion: latest
   sourceType: module
+  ecmaFeatures:
+    jsx: true
 rules: {}
